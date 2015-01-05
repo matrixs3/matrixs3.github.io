@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font: 16px/24px 'Roboto Slab', serif;
+}
+h1 { color:red; }
+h2 { color:orange; text-align:center; }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+p { 
+    color:purple; 
+    line-height:120%; 
+}
+p {
+    margin-bottom: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+nav a {
+    border-bottom: 3px solid #ffffff;
+    color: #000;
+    display: inline-block;
+    font: 18px/24px 'Oswald', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 4px solid #5cb0ff;
+}
+
+article h1 {
+    margin-bottom: 8px;
+}
+
+article h1+img {
+    margin-bottom: 24px;
+}
+
+article h2 {
+    margin-bottom: 12px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 32px;   
+}
+
+aside h3:first-child {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+aside ul {
+    font-size: 12px;
+    list-style-type: none;
+}
+
+aside a {
+    color: #5cb0ff;
+    text-decoration: none;
+}
+
+aside a:after {
+   content: " >";
+}
+
+figure {
+    margin-bottom: -8px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 24px;
+    margin-top: -6px;
+}
+
+
+footer {
+    background-color: #5ca000;
+    clear: both;
+    color: #ffff00;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    
+}
+
+.full, .third, .half {
+    margin-bottom: 32px;
+}
+
+.third {
+    float: left;
+    padding-right: 2%; 
+    width: 32%;
+}
+
+.twothird {
+    float: left;
+    padding-right: 8%; 
+    width: 58%;    
+}
+
+.half {
+    float: left;
+    padding-right: 2%;
+    width: 49%;
+}
+
+.last { /* :last-child isnt' supported in IE8 */
+    padding-right: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+/* BEGIN modules */
+
+.dateline {
+    font-weight: 700;
+}
+
+.banner {
+    font-family: 'Times', sans-serif;
+    text-align: center;
+}
+
+.banner img {
+    margin-bottom: 16px;
+}
+
+.banner p {
+    padding: 0 15%;
+}
+
+.promo img {
+    margin-bottom: -6px;
+}
+
+.promo h3 {
+    background-color: #5cb0ff;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.promo.level-middle h3 {
+    background-color: lime;
+}
+
+.promo.level-high h3 {
+    background-color: orange;
+}
+
+.promo h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.featured img {
+    margin-top: 5px;
+}
+
+/* END modules */
+
+@media (max-width: 600px) {
+
+    .wrapper {
+        width: 95%;
+    }
+    
+    .half, .third, .twothird {
+        width: 100%;
+    }
+    
+    .banner p {
+        padding: 0;
+        text-align: left;   
+    }
+    
+}
