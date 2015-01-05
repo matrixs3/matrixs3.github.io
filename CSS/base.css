@@ -6,25 +6,17 @@
     padding:0;
 }
 
-}
-
-header h1 a:visited {
-    color: #000000;
-
-}
-
-
 body {
     font: 16px/24px 'Roboto Slab', serif;
 }
-h1 { color:red; }
+h1 { color:#000000; }
 h2 { color:orange; text-align:center; }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
 h1 {
-    line-height: 50px;
+    line-height: 48px;
 }
 
 h2 {
@@ -34,7 +26,7 @@ h2 {
 }
 
 p { 
-    color:purple; 
+    color:#000000; 
     line-height:120%; 
 }
 p {
@@ -59,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 4px solid #5cb0ff;
+    border-bottom: 4px solid #000000;
 }
 
 article h1 {
@@ -91,7 +83,7 @@ aside ul {
 }
 
 aside a {
-    color: #000000;
+    color: #5cb0ff;
     text-decoration: none;
 }
 
