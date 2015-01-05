@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    line-height: 48px;
+    line-height: 50px;
 }
 
 h2 {
@@ -83,7 +83,7 @@ aside ul {
 }
 
 aside a {
-    color: #5cb0ff;
+    color: #000000;
     text-decoration: none;
 }
 
